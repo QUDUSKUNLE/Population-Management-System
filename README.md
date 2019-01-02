@@ -41,7 +41,7 @@ $ npm run debug
 
 ### Documentation
 
-Visit [API DOC](https://web.postman.co/collections/1515024-01a58e27-c509-4009-8033-baf1e6629ce5?workspace=1cebf9f6-06c8-4420-81c9-b5843b20c305) for API documentation
+Visit [API DOC](https://documenter.getpostman.com/view/1515024/RznCpeRk) for API documentation
 
 ### Prerequisites
 
