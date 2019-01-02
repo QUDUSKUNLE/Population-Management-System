@@ -1,0 +1,48 @@
+{
+    "name": "population-management-system",
+    "version": "1.0.0",
+    "description": "population management system",
+    "main": "index.js",
+    "scripts": {
+        "debug": "nodemon --inspect=9221 .",
+        "start": "node .",
+        "test": "NODE_ENV=test nyc --reporter=text --reporter=html --reporter=lcov mocha src/tests --timeout 40000 --exit --compilers js:babel-register && npm run coverage-report",
+        "coverage-report": "cat ./coverage/lcov.info | coveralls"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:QUDUSKUNLE/SMS-Management-App-API.git"
+    },
+    "author": "Qudus Yekeen",
+    "license": "ISC",
+    "devDependencies": {
+        "assert": "^1.4.1",
+        "babel-preset-env": "^1.7.0",
+        "cat": "^0.2.0",
+        "chai": "^4.2.0",
+        "chai-http": "^4.2.0",
+        "coveralls": "^3.0.2",
+        "eslint": "^5.11.1",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.14.0",
+        "istanbul": "^0.4.5",
+        "mocha": "^5.2.0",
+        "mocha-lcov-reporter": "^1.3.0",
+        "nodemon": "^1.18.9",
+        "nyc": "^13.1.0"
+    },
+    "dependencies": {
+        "babel-polyfill": "^6.26.0",
+        "babel-register": "^6.26.0",
+        "bcrypt": "^3.0.3",
+        "body-parser": "^1.18.3",
+        "capitalize": "^2.0.0",
+        "cors": "^2.8.5",
+        "dotenv": "^6.2.0",
+        "express": "^4.16.4",
+        "express-validator": "^5.3.1",
+        "jsonwebtoken": "^8.4.0",
+        "mongoose": "^5.4.1",
+        "morgan": "^1.9.1"
+    }
+}

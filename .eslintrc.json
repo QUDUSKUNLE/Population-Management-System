@@ -1,0 +1,19 @@
+{
+    "extends": "airbnb-base",
+    "globals": {
+        "localStorage": true,
+        "Materialize": true,
+        "should": true,
+        "expect": true,
+        "describe": true,
+        "before": true,
+        "it": true
+    },
+    "rules": {
+        "no-underscore-dangle": 0,
+        "max-len": [1, 80, 2],
+        "guard-for-in": 0,
+        "no-restricted-syntax": 0,
+        "consistent-return": 0
+    }
+}
