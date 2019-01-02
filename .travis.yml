@@ -1,0 +1,15 @@
+langauage: node_js
+
+node_js:
+  - 6.11.2
+  - 5.5.0
+  - 5.4.1
+
+before_install:
+  - travis_wait npm install
+
+cache:
+  - node_modules
+
+script:
+  - npm test
